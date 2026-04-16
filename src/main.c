@@ -34,7 +34,7 @@ int main(void)
 { 
   int a = 10; 
   int b = 20; 
-  // Unwanted comment  
+  
   printf("Sum = %d\n", add(a,b); 
   printf("Subtraction = %d\n", subtract(a,b)); 
   printf("Division = %d\n", divide(a,b)); 
