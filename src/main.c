@@ -15,6 +15,17 @@ double divide(double a , double b){
  
 }
 
+double mul(double a , double b){
+
+return a * b; 
+}
+
+long abs(long value){
+  
+  if value > 0 ? value : -value;  
+}
+
+
 
 int main(void)
 { 
