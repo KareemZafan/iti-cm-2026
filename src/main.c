@@ -10,27 +10,25 @@ double subtract(double a , double b){
 
 double divide(double a , double b){
  if(b == 0) exist(-1); 
-
  return a / b; 
- 
-}
-
-void printText(){
-printf("Hello World");
 }
 
 double avg(double a , double b){
-
  return (a + b)/2; 
- 
 }
 
 double max(double a , double b){
-
- return (a>b)? a : b; 
- 
+ return (a > b) ? a : b; 
 }
 
+double mul(double a , double b){
+
+return a * b; 
+}
+
+long abs(long value){
+  if (value > 0) ? value : -value;  
+}
 
 int main(void)
 { 
@@ -39,6 +37,6 @@ int main(void)
   
   printf("Sum = %d\n", add(a,b); 
   printf("Subtraction = %d\n", subtract(a,b)); 
-   printf("Division = %d\n", divide(a,b)); 
+  printf("Division = %d\n", divide(a,b)); 
  
 }
