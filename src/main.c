@@ -15,6 +15,22 @@ double divide(double a , double b){
  
 }
 
+void printText(){
+printf("Hello World");
+}
+
+double avg(double a , double b){
+
+ return (a + b)/2; 
+ 
+}
+
+double max(double a , double b){
+
+ return (a>b)? a : b; 
+ 
+}
+
 
 int main(void)
 { 
